@@ -1,0 +1,37 @@
+body {
+    /**/display: grid;
+    grid-template-columns: minmax(180px, 25%) 1fr;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: system-ui, serif;
+    }
+
+.fAdd {
+    align-content: right;
+
+}
+
+#iSymbol { 
+    width: 80px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.stockSelect {
+    width: 90px;
+    text-align: center;
+}
+
+.sidebar {
+    height: 100vh; 
+    background: lightpink;
+    /*font-size: 1rem;*/
+    text-align: left;
+    /*margin: 0px;*/
+}
+
+    .content {
+    padding: 2rem;
+    }
+

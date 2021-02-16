@@ -1,0 +1,32 @@
+{
+  "tickers": [
+    {
+      "id": 1,
+      "tickerSymbol": "MSFT"
+    },
+    {
+      "id": 2,
+      "tickerSymbol": "AMZN"
+    },
+    {
+      "tickerSymbol": "Brad",
+      "id": 3
+    },
+    {
+      "tickerSymbol": "Brad",
+      "id": 4
+    },
+    {
+      "tickerSymbol": "CAT",
+      "id": 5
+    },
+    {
+      "tickerSymbol": "AA",
+      "id": 6
+    },
+    {
+      "tickerSymbol": "CRSP",
+      "id": 7
+    }
+  ]
+}
