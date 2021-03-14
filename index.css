@@ -1,37 +1,121 @@
 body {
-    /**/display: grid;
-    grid-template-columns: minmax(180px, 25%) 1fr;
+    display: grid;
+    grid-template-columns: minmax(180px, 180px) 1fr;
     padding: 0;
     margin: 0;
     font-size: 1rem;
     font-family: system-ui, serif;
     }
 
-.fAdd {
-    align-content: right;
-
-}
-
-#iSymbol { 
-    width: 80px;
-    text-align: center;
-    margin-right: 10px;
-}
-
-.stockSelect {
-    width: 90px;
-    text-align: center;
-}
-
 .sidebar {
-    height: 100vh; 
-    background: lightpink;
-    /*font-size: 1rem;*/
-    text-align: left;
-    /*margin: 0px;*/
+    height: 100vh;
+    background: #eee;
+    padding: 8px;
 }
 
-    .content {
+/* #div-list  */
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.row:hover{
+    outline: slategray;
+    outline-style: solid;
+}
+.rowSelect{
+    border: darkorange;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.delTicker{
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bolder;
+    font-size: inherit;
+    padding: 0 5px;
+    color: lightgray;
+    background: rgb(223, 184, 184);
+}
+.delTicker:hover{
+    background: rgb(255, 0, 0);
+    color: black;
+    outline: slategray;
+    outline-style: solid;
+}
+.snooze{
+    color:lightgray;
+    padding: 0 3px;
+    flex-basis: 25%;
+/*     background: lightsalmon; */
+}
+.snooze:hover{
+    background: orange;
+    color: navy;
+    outline: slategray;
+    outline-style: solid;
+}
+.flag{
+    color:lightgray;
+    padding: 0 3px;
+    /* margin-right: 3px; */
+    flex-basis: 25%;
+}
+.flag:hover{
+    background: limegreen;
+    color: darkgreen;
+    outline: slategray;
+    outline-style: solid;
+}
+.right{
+    text-align: center;
+    width: 35%;
+}
+.right:hover{
+    background: lightskyblue;
+    font-weight: bolder;
+    outline: slategray;
+    outline-style: solid;
+}
+
+/* add-ticker form */
+
+#add-ticker {
+    align-content: right;
+    padding-top: 10pt;
+}
+#add-ticker input {
+    font-size: 14pt;
+    text-align: center;
+    width: 50%;
+}
+#add-ticker button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    /* padding: 10px 20px; */
+    padding: 4px 4px;
+    font-size: 14px;
+    /* display: inline-block; */
+    margin: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+    /* float: left; */
+    /* margin: 20px 0; */
+    border-left: 0;
+    color: white;
+}
+#add-ticker button:hover{
+    font-weight: bolder;
+    background: black;
+}
+
+.content {
     padding: 2rem;
     }
 

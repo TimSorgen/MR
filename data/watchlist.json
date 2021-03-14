@@ -5,28 +5,24 @@
       "tickerSymbol": "MSFT"
     },
     {
-      "id": 2,
-      "tickerSymbol": "AMZN"
-    },
-    {
-      "tickerSymbol": "Brad",
+      "tickerSymbol": "QWER",
       "id": 3
     },
     {
-      "tickerSymbol": "Brad",
-      "id": 4
+      "tickerSymbol": "SDF",
+      "id": 18
     },
     {
-      "tickerSymbol": "CAT",
-      "id": 5
+      "tickerSymbol": "FGH",
+      "id": 21
     },
     {
-      "tickerSymbol": "AA",
-      "id": 6
+      "tickerSymbol": "G",
+      "id": 30
     },
     {
-      "tickerSymbol": "CRSP",
-      "id": 7
+      "tickerSymbol": "GF",
+      "id": 31
     }
   ]
 }
