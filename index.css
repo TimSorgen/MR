@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: minmax(180px, 180px) 1fr;
+    grid-template-columns: minmax(210px, 210px) 1fr;
     padding: 0;
     margin: 0;
     font-size: 1rem;
@@ -13,24 +13,29 @@ body {
     padding: 8px;
 }
 
-/* #div-list  */
+#div-list{
+    height: 50vh;
+    overflow-y: scroll;
+}
 .row{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
+    margin: 3px 3px;
+    width: 97%;
 }
 .row:hover{
     outline: slategray;
     outline-style: solid;
 }
-.rowSelect{
-    border: darkorange;
+.rowHidden{
+    display: none;
 }
 .left{
     display: flex;
     justify-content: space-between;
-    width: 65%;
-    padding-right: 5px;
+    width: 70%;
+    /* padding-right: 5px; */
     cursor: pointer;
 }
 .delTicker{
@@ -51,7 +56,7 @@ body {
 .snooze{
     color:lightgray;
     padding: 0 3px;
-    flex-basis: 25%;
+    /* flex-basis: 25%; */
 /*     background: lightsalmon; */
 }
 .snooze:hover{
@@ -60,27 +65,34 @@ body {
     outline: slategray;
     outline-style: solid;
 }
+.snoozeSet{
+    background: orange;
+    color: black;
+}
 .flag{
     color:lightgray;
     padding: 0 3px;
-    /* margin-right: 3px; */
-    flex-basis: 25%;
+    /* flex-basis: 25%; */
 }
-.flag:hover{
+.flagOn, .flag:hover{
     background: limegreen;
     color: darkgreen;
-    outline: slategray;
+    padding: 0 3px;
+    /* outline: slategray; */
     outline-style: solid;
+    /* flex-basis: 25%; */
 }
 .right{
     text-align: center;
-    width: 35%;
+    width: 32%;
+    padding: 0 3px;
 }
-.right:hover{
+.rightSelected, .right:hover{
     background: lightskyblue;
     font-weight: bolder;
     outline: slategray;
     outline-style: solid;
+    padding: 0 3px;
 }
 
 /* add-ticker form */
@@ -97,16 +109,12 @@ body {
 #add-ticker button{
     border: 1px solid #9361bf;
     background: #9361bf;
-    /* padding: 10px 20px; */
     padding: 4px 4px;
     font-size: 14px;
-    /* display: inline-block; */
     margin: 0;
     border-radius: 4px;
     cursor: pointer;
     width: 40%;
-    /* float: left; */
-    /* margin: 20px 0; */
     border-left: 0;
     color: white;
 }

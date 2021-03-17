@@ -2,27 +2,33 @@
   "tickers": [
     {
       "id": 1,
-      "tickerSymbol": "MSFT"
+      "tickerSymbol": "MSFT",
+      "flag": "flagOff",
+      "snooze": ""
     },
     {
       "tickerSymbol": "QWER",
-      "id": 3
+      "id": 3,
+      "flag": "flagOn",
+      "snooze": "20210316"
     },
     {
       "tickerSymbol": "SDF",
-      "id": 18
+      "id": 4,
+      "flag": "flagOn",
+      "snooze": ""
     },
     {
-      "tickerSymbol": "FGH",
-      "id": 21
+      "tickerSymbol": "d315",
+      "id": 5,
+      "flag": "flagOn",
+      "snooze": ""
     },
     {
-      "tickerSymbol": "G",
-      "id": 30
-    },
-    {
-      "tickerSymbol": "GF",
-      "id": 31
+      "tickerSymbol": "d314",
+      "id": 6,
+      "flag": "flagOn",
+      "snooze": ""
     }
   ]
 }

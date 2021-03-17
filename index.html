@@ -5,44 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="index.css">
     <title>2021-02-05</title>
+    <script src="js/functions.js" defer></script>
     <script src="js/index.js" defer></script>
 </head>
 <body>
     <div class="sidebar">
+        <p>Add, flag, snooze or delete stocks from the watchlist.</p>
         <p>
-            Add, flag, snooze or delete stocks from the watchlist.
+            <button id="load">Get Data</button>&nbsp;<button id="save">Save Data</button>
         </p>
         <div id="div-list">
-            <div class="row">
-                <span class="left">
-                    <span class="delTicker">&#10006;</span>
-                    <span class="snooze">snooze</span>
-                    <span class="flag">flag</span>
-                </span>
-                <span class="right">TSLA</span>
-            </div>
-            <div class="row">
-                <span class="left">
-                    <span class="delTicker">&#x2716;</span>
-                    <span class="snooze">snooze</span>
-                    <span class="flag">flag</span>
-                </span>
-                <span class="right">ARKK</span>
-            </div>
-            <div class="row">
-                <span class="left">
-                    <span class="delTicker">&#x2716;</span>
-                    <span class="snooze">snooze</span>
-                    <span class="flag">flag</span>
-                </span>
-                <span class="right">BASF</span>
-            </div>
+            <!--inject tickers here-->    
         </div>
-        <!--inject tickers here-->
         <form id="add-ticker" autocomplete="off">
             <input type="text" name="ticker" placeholder="...">
             <button>Add</button>
         </form>
+        <button id='unload'>Unload</button>
+        <button id='update'>Update</button>
+        <button id='new'>New</button>
     </div>
     <div class="result">
         <p class="content" contenteditable>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla architecto maxime modi nisi. Quas saepe dolorum, architecto quia fugit nulla! Natus, iure eveniet ex iusto tempora animi quibusdam porro?</p>
